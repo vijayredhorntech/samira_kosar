@@ -5,10 +5,9 @@
     <div class="carousel h-full relative">
         <?php
         $images = [
-            asset('assets/images/slider/1.png'),
-            asset('assets/images/slider/1.png'),
-            asset('assets/images/slider/1.png'),
-            asset('assets/images/slider/1.png'),
+            asset('assets/images/slider/1black.png'),
+            asset('assets/images/slider/4black.png'),
+            asset('assets/images/slider/3black.png'),
         ];
         ?>
         <?php foreach($images as $image): ?>
@@ -80,7 +79,7 @@
                 <div class="aboutMe mt-6 relative w-full">
                     <div class="h-full ml-6 mr-6">
                         <div class="bg-black h-48 overflow-hidden rounded-md relative">
-                            <img src="{{asset('assets/images/aboutMe/p1.jpeg')}}" class="rounded-md" alt="">
+                            <img src="{{asset('assets/images/aboutMe/p1.png')}}" class="rounded-md" alt="">
                             <div
                                 class="w-full h-full bg-black/60 absolute top-0 left-0 p-4 flex flex-col justify-between">
                                 <span class="text-sm text-white font-normal">Classic</span>
@@ -94,7 +93,7 @@
                     </div>
                     <div class="h-full ml-6 mr-6">
                         <div class="bg-black h-48 overflow-hidden rounded-md relative">
-                            <img src="{{asset('assets/images/aboutMe/p2.jpeg')}}" class="rounded-md" alt="">
+                            <img src="{{asset('assets/images/aboutMe/p2.png')}}" class="rounded-md" alt="">
                             <div
                                 class="w-full h-full bg-black/60 absolute top-0 left-0 p-4 flex flex-col justify-between">
                                 <span class="text-sm text-white font-normal">Classic</span>
@@ -108,7 +107,7 @@
                     </div>
                     <div class="h-full ml-6 mr-6">
                         <div class="bg-black h-48 overflow-hidden rounded-md relative">
-                            <img src="{{asset('assets/images/aboutMe/p3.jpeg')}}" class="rounded-md" alt="">
+                            <img src="{{asset('assets/images/aboutMe/p3.png')}}" class="rounded-md" alt="">
                             <div
                                 class="w-full h-full bg-black/60 absolute top-0 left-0 p-4 flex flex-col justify-between">
                                 <span class="text-sm text-white font-normal">Classic</span>
@@ -122,7 +121,7 @@
                     </div>
                     <div class="h-full ml-6 mr-6">
                         <div class="bg-black h-48 overflow-hidden rounded-md relative">
-                            <img src="{{asset('assets/images/aboutMe/p1.jpeg')}}" class="rounded-md" alt="">
+                            <img src="{{asset('assets/images/aboutMe/p1.png')}}" class="rounded-md" alt="">
                             <div
                                 class="w-full h-full bg-black/60 absolute top-0 left-0 p-4 flex flex-col justify-between">
                                 <span class="text-sm text-white font-normal">Classic</span>
@@ -136,7 +135,7 @@
                     </div>
                     <div class="h-full ml-6 mr-6">
                         <div class="bg-black h-48 overflow-hidden rounded-md relative">
-                            <img src="{{asset('assets/images/aboutMe/p2.jpeg')}}" class="rounded-md" alt="">
+                            <img src="{{asset('assets/images/aboutMe/p2.png')}}" class="rounded-md" alt="">
                             <div
                                 class="w-full h-full bg-black/60 absolute top-0 left-0 p-4 flex flex-col justify-between">
                                 <span class="text-sm text-white font-normal">Classic</span>
@@ -150,7 +149,7 @@
                     </div>
                     <div class="h-full ml-6 mr-6">
                         <div class="bg-black h-48 overflow-hidden rounded-md relative">
-                            <img src="{{asset('assets/images/aboutMe/p3.jpeg')}}" class="rounded-md" alt="">
+                            <img src="{{asset('assets/images/aboutMe/p3.png')}}" class="rounded-md" alt="">
                             <div
                                 class="w-full h-full bg-black/60 absolute top-0 left-0 p-4 flex flex-col justify-between">
                                 <span class="text-sm text-white font-normal">Classic</span>
@@ -204,16 +203,17 @@
     {{--education section ends here--}}
 
     {{--gallery section--}}
-    <div id="gallery" class="w-full bg-white flex flex-col items-center relative bg-center bg-cover bg-no-repeat"
-         style="background-image: url({{asset('assets/images/gallery/bg3.png')}})">
+    <div id="gallery" class="w-full bg-black flex flex-col items-center relative bg-center bg-cover bg-no-repeat border-t-[1px] border-white/60"
+{{--         style="background-image: url({{asset('assets/images/gallery/bg3.png')}})"--}}
+    >
         {{--        <img src="{{asset('assets/images/gallery/bg1.png')}}" class="absolute top-0 left-0" alt="">--}}
         {{--        <img src="{{asset('assets/images/gallery/bg2.png')}}" class="absolute top-0 right-0" alt="">--}}
 
-        <div class=" w-full lg:hidden md:hidden sm:hidden grid grid-cols-1 gap-4 px-4 py-12">
+        <div class=" w-full lg:hidden md:hidden sm:hidden grid grid-cols-1 gap-4 px-4 py-12 bg-black">
             <div class="w-full flex justify-center">
                 <span class="overflow-y-hidden font-bold text-3xl text-primaryColor">GALLERY</span>
             </div>
-            <div class="w-full">
+            <div class="w-full ">
                 <img src="{{asset('assets/images/gallery/1.png')}}" class="w-full" alt="">
             </div>
             <div class="w-full ">
@@ -250,30 +250,30 @@
             </div>
             <table class="w-full mt-12">
                 <tr>
-                    <td class="p-2" rowspan="2"><img src="{{asset('assets/images/gallery/1.png')}}"
-                                                     class="w-full h-full" alt=""></td>
-                    <td class="p-2"><img src="{{asset('assets/images/gallery/2.png')}}" class="w-full h-full" alt="">
+                    <td class="p-2" rowspan="2"><img src="{{asset('assets/images/gallery/p1black.png')}}"
+                                                     class="w-full h-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt=""></td>
+                    <td class="p-2"><img src="{{asset('assets/images/gallery/p2black.png')}}" class="w-full h-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
                     </td>
-                    <td class="p-2" rowspan="4"><img src="{{asset('assets/images/gallery/4.png')}}"
-                                                     class="w-full h-full" alt=""></td>
-                    <td class="p-2" rowspan="2"><img src="{{asset('assets/images/gallery/5.png')}}"
-                                                     class="w-full h-full" alt=""></td>
-                    <td class="p-2"><img src="{{asset('assets/images/gallery/7.png')}}" class="w-full h-full" alt="">
+                    <td class="p-2" rowspan="4"><img src="{{asset('assets/images/gallery/p4black.png')}}"
+                                                     class="w-full h-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt=""></td>
+                    <td class="p-2" rowspan="2"><img src="{{asset('assets/images/gallery/p5black.png')}}"
+                                                     class="w-full h-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt=""></td>
+                    <td class="p-2"><img src="{{asset('assets/images/gallery/p7black.png')}}" class="w-full h-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
                     </td>
                 </tr>
                 <tr>
                     {{--                    2nd--}}
-                    <td class="p-2"><img src="{{asset('assets/images/gallery/3.png')}}" class="w-full h-full" alt="">
+                    <td class="p-2"><img src="{{asset('assets/images/gallery/p3black.png')}}" class="w-full h-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
                     </td>
                     {{--                     5th--}}
-                    <td class="p-2" rowspan="3"><img src="{{asset('assets/images/gallery/8.png')}}"
-                                                     class="w-full h-full" alt=""></td>
+                    <td class="p-2" rowspan="3"><img src="{{asset('assets/images/gallery/p8black.png')}}"
+                                                     class="w-full h-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt=""></td>
                 </tr>
                 <tr>
                     {{--                    1st--}}
                     <td class="p-2 " colspan="2" rowspan="2">
                         <div class="relative">
-                            <img src="{{asset('assets/images/gallery/7.png')}}" class="w-full h-full" alt="">
+                            <img src="{{asset('assets/images/gallery/p7black.png')}}" class="w-full h-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
                             <div
                                 class="absolute left-[50%] translate-x-[-50%] bottom-4 h-max w-max z-40 bg-black/20 px-8 py-2 font-semibold  text-white">
                                 <a href="">
@@ -286,8 +286,8 @@
                         </div>
                     </td>
                     {{--                     4th--}}
-                    <td class="p-2" rowspan="2"><img src="{{asset('assets/images/gallery/6.png')}}"
-                                                     class="w-full h-full" alt=""></td>
+                    <td class="p-2" rowspan="2"><img src="{{asset('assets/images/gallery/p6black.png')}}"
+                                                     class="w-full h-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt=""></td>
                 </tr>
 
                 <tr>
@@ -485,31 +485,31 @@
                 <?php
                 $testimonials = [
                     [
-                        'image' => asset('assets/images/slider/1.png'),
+                        'image' => asset('assets/images/slider/1black.png'),
                         'name' => 'Isabella Chavez',
                         'date' => '30 Aug 2024',
                         'content' => 'What I love about Samira dance is that it has always been a place where I could just go and live my passion...'
                     ],
                     [
-                        'image' => asset('assets/images/slider/1.png'),
+                        'image' => asset('assets/images/slider/1black.png'),
                         'name' => 'Liam Johnson',
                         'date' => '25 Aug 2024',
                         'content' => 'Samira dance has given me the freedom to express myself in ways I never thought possible. It\'s truly a special place.'
                     ],
                     [
-                        'image' => asset('assets/images/slider/1.png'),
+                        'image' => asset('assets/images/slider/1black.png'),
                         'name' => 'Olivia Brown',
                         'date' => '20 Aug 2024',
                         'content' => 'The community at Samira dance is incredible. I\'ve made lifelong friends and grown so much as a dancer.'
                     ],
                     [
-                        'image' => asset('assets/images/slider/1.png'),
+                        'image' => asset('assets/images/slider/1black.png'),
                         'name' => 'Noah Smith',
                         'date' => '15 Aug 2024',
                         'content' => 'Every class at Samira dance is an opportunity to learn something new and exciting. I can\'t recommend it enough!'
                     ],
                     [
-                        'image' => asset('assets/images/slider/1.png'),
+                        'image' => asset('assets/images/slider/1black.png'),
                         'name' => 'Ava Williams',
                         'date' => '10 Aug 2024',
                         'content' => 'Samira dance is more than just a studio; it\'s a family. The support and encouragement I\'ve received are unmatched.'
