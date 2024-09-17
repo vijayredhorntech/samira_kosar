@@ -203,7 +203,7 @@
     {{--education section ends here--}}
 
     {{--gallery section--}}
-    <div id="gallery" class="w-full bg-black flex flex-col items-center relative bg-center bg-cover bg-no-repeat border-t-[1px] border-white/60"
+    <div id="gallery" class="w-full bg-black flex flex-col items-center relative bg-center bg-cover bg-no-repeat border-t-[1px] border-b-[1px] border-white/60"
 {{--         style="background-image: url({{asset('assets/images/gallery/bg3.png')}})"--}}
     >
         {{--        <img src="{{asset('assets/images/gallery/bg1.png')}}" class="absolute top-0 left-0" alt="">--}}
@@ -214,27 +214,27 @@
                 <span class="overflow-y-hidden font-bold text-3xl text-primaryColor">GALLERY</span>
             </div>
             <div class="w-full ">
-                <img src="{{asset('assets/images/gallery/1.png')}}" class="w-full" alt="">
+                <img src="{{asset('assets/images/gallery/p1black.png')}}" class="w-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
             </div>
             <div class="w-full ">
-                <img src="{{asset('assets/images/gallery/2.png')}}" class="w-full" alt="">
+                <img src="{{asset('assets/images/gallery/p2black.png')}}" class="w-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
             </div>
             <div class="w-full ">
-                <img src="{{asset('assets/images/gallery/4.png')}}" class="w-full" alt="">
+                <img src="{{asset('assets/images/gallery/p4black.png')}}" class="w-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
             </div>
             <div class="w-full ">
-                <img src="{{asset('assets/images/gallery/5.png')}}" class="w-full" alt="">
+                <img src="{{asset('assets/images/gallery/p5black.png')}}" class="w-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
             </div>
             <div class="w-full ">
-                <img src="{{asset('assets/images/gallery/3.png')}}" class="w-full" alt="">
+                <img src="{{asset('assets/images/gallery/p3black.png')}}" class="w-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
             </div>
             <div class="w-full ">
-                <img src="{{asset('assets/images/gallery/7.png')}}" class="w-full" alt="">
+                <img src="{{asset('assets/images/gallery/p7black.png')}}" class="w-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
             </div>
             <div class="w-full relative">
-                <img src="{{asset('assets/images/gallery/6.png')}}" class="w-full" alt="">
+                <img src="{{asset('assets/images/gallery/p6black.png')}}" class="w-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
                 <div
-                    class="absolute left-[50%] translate-x-[-50%] bottom-4 h-max w-max z-40 bg-black/20 px-8 py-2 font-semibold  text-white">
+                    class="absolute left-[50%] translate-x-[-50%] bottom-4 h-max w-max z-40 bg-black/60 border-[1px] border-white/50 shadow-lg shadow-white/20 px-8 py-2 font-semibold  text-white">
                     <a href="">
                         <div class="flex flex-col items-center justify-center">
                             <span>See More</span>
@@ -275,7 +275,7 @@
                         <div class="relative">
                             <img src="{{asset('assets/images/gallery/p7black.png')}}" class="w-full h-full border-[1px] border-white/20 shadow-lg shadow-white/10 rounded-sm" alt="">
                             <div
-                                class="absolute left-[50%] translate-x-[-50%] bottom-4 h-max w-max z-40 bg-black/20 px-8 py-2 font-semibold  text-white">
+                                class="absolute left-[50%] translate-x-[-50%] bottom-4 h-max w-max z-40 bg-black/60 border-[1px] border-white/50 shadow-lg shadow-white/20 px-8 py-2 font-semibold  text-white">
                                 <a href="">
                                     <div class="flex flex-col items-center justify-center">
                                         <span>See More</span>
@@ -474,7 +474,7 @@
 
     {{--testimonials section--}}
     <div id="testimonials" class="w-full bg-cover bg-center h-full"
-         style="background-image: url({{asset('assets/images/slider/1.png')}})">
+         style="background-image: url({{asset('assets/images/slider/1black.png')}})">
         <div class="w-full h-full flex justify-center lg:py-32 md:py-28 py-16 bg-black/80">
             <div class="lg:w-[70%] md:w-[90%] w-full px-4 flex flex-col items-center h-full ">
                 <span
